@@ -8,7 +8,7 @@ import pickle
 
 
 # Here we load in the data in the format that Notion exports it in.
-ps = list(Path("Notion_DB/").glob("**/*.md"))
+ps = list(Path("Obsidian_DB/").glob("**/*.md"))
 
 data = []
 sources = []
@@ -30,7 +30,7 @@ for i, d in enumerate(data):
 
 # Here we create a vector store from the documents and save it to disk.
 store = FAISS.from_texts(docs, OpenAIEmbeddings(), metadatas=metadatas)
-faiss.write_index(store.index, "docs.index")
+faiss.write_index(store.index, "Personal/docs.index")
 store.index = None
-with open("faiss_store.pkl", "wb") as f:
+with open("Personal/faiss_store.pkl", "wb") as f:
     pickle.dump(store, f)

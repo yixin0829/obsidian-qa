@@ -1,0 +1,181 @@
+==================================================
+Testing question: What's natural language processing?
+Answer:  Natural language processing is a process where we learn statistics of language using different means (frequentist counting method, Bayesian statistics, neural language models).
+
+Sources: Obsidian_DB/02-SlipBox/NLP.md
+Time spent loading: 0.0560 seconds
+Time spent processing: 6.7798 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 7.24 seconds
+==================================================
+Testing question: List some benefits of using "virtual nodes" in AWS Dynamo.
+Answer:  Benefits of using virtual nodes in AWS Dynamo include improved scalability, better load balancing, and improved fault tolerance.
+
+Sources: Obsidian_DB/02-SlipBox/AWS Dynamo.md, Obsidian_DB/02-SlipBox/Consistent Hashing.md
+Time spent loading: 0.0564 seconds
+Time spent processing: 8.6814 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 9.14 seconds
+==================================================
+Testing question: How to store credential in Git?
+Answer:  Credentials can be stored securely using Git Credential Manager (GCM). This includes two-factor authentication (2FA). To set up GCM, install the GCM package, set up storage options in Linux (GPG with 'pass'), and use a username and access token to login once.
+
+Sources: Obsidian_DB/02-SlipBox/Git.md
+Time spent loading: 0.0545 seconds
+Time spent processing: 20.4760 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 20.93 seconds
+==================================================
+Testing question: What are ways for feature selection in data science?
+Answer:  Ways for feature selection in data science include statistical methods, wrapper methods, backward elimination, decision tree feature importance score, regularization, and chi-squared test.
+
+Sources: Obsidian_DB/02-SlipBox/Feature Selection.md, Obsidian_DB/02-SlipBox/Feature Tuning.md
+Time spent loading: 0.0523 seconds
+Time spent processing: 12.5528 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 13.00 seconds
+==================================================
+Testing question: How to convert a continuous feature into categorical feature?
+Answer:  Bucketing is a method to convert a continuous feature into categorical feature.
+
+Sources: Obsidian_DB/02-SlipBox/Bucketing.md, Obsidian_DB/02-SlipBox/Feature Transformation.md
+Time spent loading: 0.0579 seconds
+Time spent processing: 9.9035 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 10.37 seconds
+==================================================
+Testing question: What are some popular tools for text mining and how do they work?
+Answer:  Popular tools for text mining include lemmatization and natural language processing. Lemmatization is a text pre-processing technique used to break a word down to its root meaning to identify similarities, while natural language processing is a process where we learn statistics of language using different means.
+
+Sources: Obsidian_DB/02-SlipBox/Lemmatization.md, Obsidian_DB/02-SlipBox/NLP.md
+Time spent loading: 0.0543 seconds
+Time spent processing: 13.5383 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 14.00 seconds
+==================================================
+Testing question: What are the differences between supervised and unsupervised machine learning algorithms?
+Answer:  Supervised learning algorithms use labeled data to train a model to make predictions, while unsupervised learning algorithms use unlabeled data to find patterns and relationships in the data. Semi-supervised learning algorithms use a combination of labeled and unlabeled data.
+
+Sources: Obsidian_DB/02-SlipBox/ML Algorithms.md, Obsidian_DB/02-SlipBox/Supervised Learning.md, Obsidian_DB/02-SlipBox/Unsupervised Learning.md, Obsidian_DB/02-SlipBox/Semi-supervised Learning (SSL).md
+Time spent loading: 0.0586 seconds
+Time spent processing: 10.8471 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 11.31 seconds
+==================================================
+Testing question: What is the purpose of cross-validation in machine learning?
+Answer:  Cross-validation in machine learning is a process of splitting data into training and testing sets to evaluate the performance of a model and avoid data leakage.
+
+Sources: Obsidian_DB/02-SlipBox/Cross-Validation.md, Obsidian_DB/02-SlipBox/Data Leak.md, Obsidian_DB/02-SlipBox/Data Splitting.md
+Time spent loading: 0.0552 seconds
+Time spent processing: 18.7980 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 19.25 seconds
+==================================================
+Testing question: How can deep learning be used for image recognition?
+Answer:  Deep learning can be used for image recognition by using artificial neural networks with representation learning.
+
+Sources: Obsidian_DB/02-SlipBox/Deep Learning.md
+Time spent loading: 0.0557 seconds
+Time spent processing: 9.3073 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 9.77 seconds
+==================================================
+Testing question: What is the difference between a convolutional neural network and a recurrent neural network?
+Answer:  A convolutional neural network (CNN) uses a set of weights for each word across all time steps, while a recurrent neural network (RNN) uses the same set of weights for each word across all time steps and "remembers" information for all previous sequences by passing its hidden state.
+
+Sources: Obsidian_DB/02-SlipBox/ML Algorithms.md, Obsidian_DB/02-SlipBox/RNN.md
+Time spent loading: 0.0576 seconds
+Time spent processing: 17.3909 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 17.85 seconds
+==================================================
+Testing question: What are some common preprocessing techniques used in natural language processing?
+Answer:  Common preprocessing techniques used in natural language processing include stemming, lemmatization, and frequentist counting methods.
+
+Sources: Obsidian_DB/02-SlipBox/Stemming.md, Obsidian_DB/02-SlipBox/Lemmatization.md, Obsidian_DB/02-SlipBox/NLP.md
+Time spent loading: 0.0548 seconds
+Time spent processing: 12.5157 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 12.97 seconds
+==================================================
+Testing question: What is the difference between overfitting and underfitting in machine learning?
+Answer:  Overfitting is when a model has high variance, meaning it fits the data too closely and is not generalizable. Underfitting is when a model has high bias, meaning it does not capture the complexity of the data and is not generalizable.
+
+Sources: Obsidian_DB/02-SlipBox/Regularization.md, Obsidian_DB/02-SlipBox/ML Error Analysis.md
+Time spent loading: 0.0590 seconds
+Time spent processing: 8.0690 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 8.53 seconds
+==================================================
+Testing question: What are some common algorithms used for anomaly detection?
+Answer:  Common algorithms used for anomaly detection include density-based algorithms, isolation forest, and local outlier factor.
+
+Sources: https://towardsdatascience.com/anomaly-detection-algorithms-1cef5519aefd
+Time spent loading: 0.0541 seconds
+Time spent processing: 7.6605 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 8.12 seconds
+==================================================
+Testing question: What is the difference between precision and recall in machine learning evaluation metrics?
+Answer:  Precision is the proportion of true positives out of all predicted positives, while recall is the proportion of true positives out of all actual positives. Precision-Recall curves summarize the trade-off between the true positive rate and the positive predictive value for a predictive model using different probability thresholds. The F1-score is the harmonic mean of the precision and recall, and is used to measure binary classification models.
+
+Sources: Obsidian_DB/02-SlipBox/ML Model Evaluation.md, Obsidian_DB/02-SlipBox/Statistics.md
+Time spent loading: 0.0561 seconds
+Time spent processing: 18.0356 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 18.51 seconds
+==================================================
+Testing question: How can feature scaling improve the performance of machine learning models?
+Answer:  Feature scaling can improve the performance of machine learning models by allowing for faster convergence and computation, as well as by helping to select features with correlation and avoid multi-collinearity.
+
+Sources: Obsidian_DB/02-SlipBox/Feature Scaling.md, Obsidian_DB/02-SlipBox/Feature Tuning.md, Obsidian_DB/02-SlipBox/Feature Selection.md
+Time spent loading: 0.0565 seconds
+Time spent processing: 14.3426 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 14.81 seconds
+==================================================
+Testing question: What is transfer learning and how can it be applied in machine learning?
+Answer:  Transfer learning is a machine learning technique where a model developed for a task is reused as the starting point for a model on a second task. It aims to reduce the amount of training data needed for the second task by transferring the knowledge from the first task. It can be applied in machine learning by using a pre-trained model as the starting point for a new model, which can then be fine-tuned on the new task.
+
+Sources: Obsidian_DB/02-SlipBox/Deep Learning.md
+Time spent loading: 0.0537 seconds
+Time spent processing: 8.5677 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 9.03 seconds
+==================================================
+Testing question: What are some common methods for dimensionality reduction in data science?
+Answer:  Common methods for dimensionality reduction in data science include PCA, embedding extraction, hashing, transfer learning, and autoencoders.
+
+Sources: Obsidian_DB/02-SlipBox/Dimensionality Reduction.md, Obsidian_DB/02-SlipBox/PCA.md
+Time spent loading: 0.0535 seconds
+Time spent processing: 14.4451 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 14.90 seconds
+==================================================
+Testing question: How can imbalanced data affect the performance of machine learning models?
+Answer:  Imbalanced data can lead to machine learning models that are biased towards the majority class, resulting in poor performance on minority classes.
+
+Sources: Obsidian_DB/02-SlipBox/Imbalanced Data.md
+Time spent loading: 0.0586 seconds
+Time spent processing: 8.3717 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 8.84 seconds
+==================================================
+Testing question: What are some common methods for text classification in natural language processing?
+Answer:  Common methods for text classification in natural language processing include lemmatization, frequentist counting, Bayesian statistics, and neural language models.
+
+Sources: Obsidian_DB/02-SlipBox/Stemming.md, Obsidian_DB/02-SlipBox/Lemmatization.md, Obsidian_DB/02-SlipBox/NLP.md
+Time spent loading: 0.0548 seconds
+Time spent processing: 8.8289 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 9.29 seconds
+==================================================
+Testing question: What is the purpose of regularization in machine learning?
+Answer:  The purpose of regularization in machine learning is to avoid the model to overfit the data and to penalize large weights in order to get a solution with smaller weights or a sparse solution.
+
+Sources: Obsidian_DB/02-SlipBox/Regularization.md, Obsidian_DB/02-SlipBox/PyTorch.md, Obsidian_DB/02-SlipBox/Ridge Regularization.md, Obsidian_DB/02-SlipBox/LASSO Regularization.md
+Time spent loading: 0.0709 seconds
+Time spent processing: 13.7386 seconds
+Time spent printing: 0.0000 seconds
+Runtime: 14.25 seconds
+Average runtime over 20 questions: 12.61 seconds
